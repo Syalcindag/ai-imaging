@@ -1,10 +1,13 @@
-import React from 'react'
+"use client"
 import styles from "./styles.module.scss";
 import { PromptForm } from "./prompt-form";
 import { PromptSuggestions } from './prompt-suggestions';
 import { Examples } from './examples';
 
 const HomePageContainer = () => {
+
+  
+
   return (
     <div className={styles.homePageContainer}>
         <h1 className={styles.title}>You Just Image, <br/>
