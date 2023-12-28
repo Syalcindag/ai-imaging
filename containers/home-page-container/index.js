@@ -3,6 +3,7 @@ import styles from "./styles.module.scss";
 import { PromptForm } from "./prompt-form";
 import { PromptSuggestions } from './prompt-suggestions';
 import { Examples } from './examples';
+import { ResultImage } from "./result-image";
 
 const HomePageContainer = () => {
 
@@ -17,6 +18,7 @@ const HomePageContainer = () => {
         Tell us a prompt and we&apos;ll generate a story for you.
         </p>
         <PromptForm/>
+        <ResultImage/>
         <PromptSuggestions/>
         <Examples />
     </div>
