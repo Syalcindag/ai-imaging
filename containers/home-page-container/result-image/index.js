@@ -8,7 +8,7 @@ import styles from "./styles.module.scss";
 const ResultImage = () => {
     const { isSubmitting, error, image, prompt } = useHomePage();
     if(error) {
-        return (<p className={styles.error}></p>)
+        return (<p className={styles.error}> { error.message() }</p>)
     }
     if(!isSubmitting && !image) {
         return null;

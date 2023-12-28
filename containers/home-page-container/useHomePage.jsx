@@ -19,12 +19,6 @@ export const  HomePageProvider = ({children}) =>  {
                 },
                 body: JSON.stringify({
                     prompt,
-                    width: 768,
-                    height: 768,
-                    scheduler: "K_EULER",
-                    num_outputs: 1,
-                    guidance_scale: 7.5,
-                    num_inference_step: 50,
                 }),
             });
 
